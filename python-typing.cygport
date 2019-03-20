@@ -1,7 +1,7 @@
-inherit python-wheel
+inherit python2-wheel
 
 NAME="python-typing"
-VERSION=3.6.2
+VERSION=3.6.6
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Backport of standard typing module"
@@ -11,7 +11,3 @@ a concise, standard format, and it has been designed to also be used by
 static and runtime type checkers, static analyzers, IDEs and other tools."
 
 ARCH=noarch
-
-# included in 3.6 standard library
-PKG_NAMES="python2-typing"
-PKG_IGNORE=${python3_typing_CONTENTS}
